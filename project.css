@@ -9,10 +9,6 @@ h1{
     justify-content: center;
     height: 20vh;
     width: 100vw;}
-
-    h1>small{
-        color:#00b7ff;
-    }
 ol {
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -52,11 +48,11 @@ body.index footer{
 }
 
 html{
-    background: #00b7ff;
-background: -webkit-linear-gradient(0deg, rgba(0, 183, 255, 1) 0%, rgba(138, 222, 255, 1) 15%, rgba(189, 234, 255, 1) 27%, rgba(255, 255, 255, 1) 44%, rgba(255, 255, 255, 1) 100%);
-background: -moz-linear-gradient(0deg, rgba(0, 183, 255, 1) 0%, rgba(138, 222, 255, 1) 15%, rgba(189, 234, 255, 1) 27%, rgba(255, 255, 255, 1) 44%, rgba(255, 255, 255, 1) 100%);
-background: linear-gradient(0deg, rgba(0, 183, 255, 1) 0%, rgba(138, 222, 255, 1) 15%, rgba(189, 234, 255, 1) 27%, rgba(255, 255, 255, 1) 44%, rgba(255, 255, 255, 1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00B7FF", endColorstr="#FFFFFF", GradientType=0);
+    background: #ffffff;
+background: -webkit-linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+background: -moz-linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#FFFFFF", GradientType=0);
 }
 p>a{
     font-size: 30px;
@@ -228,6 +224,4 @@ button{
     background-color: turquoise;
 } 
 
-@import url(index.css);
-@import url(general.css);
-@import url(project.css)
+
