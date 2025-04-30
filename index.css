@@ -1,6 +1,6 @@
 h1{
     font-size: 60px;
-    font-family:monospace;
+    font-family: "Alfa Slab One", serif;
     text-align: center;
     color:black;
     display: flex;
@@ -15,7 +15,7 @@ h1{
     }
 ol {
     font-size: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Open Sans", sans-serif;
     
 }
 body {
@@ -39,8 +39,18 @@ div {
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     color:black;
-    
 }
+
+.flex-container {
+    display: flex;
+    gap: 60px;
+    padding: 0px;
+}
+
+.flex-equal-space {
+    justify-content: space-between;
+}
+
 body.index footer{
     text-align: center;
     margin: 4px;
@@ -92,12 +102,12 @@ box-sizing: border-box;
 
 nav{
     position: absolute;
-    z-index: 10;
+    z-index: 0;
     left: 0;
     right: 0;
     top: 0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 0 5%;
+    
     height: 100px;
     background: #18d6d9;
 background: -webkit-linear-gradient(180deg, rgba(24, 214, 217, 1) 0%, rgba(0, 251, 255, 1) 51%, rgba(245, 245, 245, 1) 100%);
@@ -121,8 +131,8 @@ nav .logo{
 
 nav .list{
     float: right;
-    padding: 0;
-    margin: 0;
+    padding: 0%;
+    margin: 0%;
     width: 60%;
     height: 100%;
     display: flex;
@@ -137,7 +147,7 @@ nav .list li {
 nav .list a{
     display: block;
     text-transform: uppercase;
-    padding: 15px;
+    padding: 10px;
     font-size: 16px;
     font-weight: bold;
     color: white;
@@ -145,7 +155,7 @@ nav .list a{
 }
 
 nav .list a:hover{
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid white;
 }
 
 #toggle {
@@ -215,18 +225,7 @@ ol{
     box-shadow: 30px 3px 5px ;
 }
 
-@keyframes pulse {
-    50% {
-      transform: scale(1.09 );
-    }
-  }      
 
-[anim="pulse"]:not(.toggled) {
-    animation: pulse var(--ease-elastic-in-1) 1400ms infinite alternate;
-  }
-button{
-    background-color: turquoise;
-} 
 
 @import url(index.css);
 @import url(general.css);
